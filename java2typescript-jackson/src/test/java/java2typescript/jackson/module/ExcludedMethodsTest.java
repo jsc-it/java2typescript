@@ -16,7 +16,6 @@
  ******************************************************************************/
 package java2typescript.jackson.module;
 
-import java.beans.Transient;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
@@ -47,11 +46,6 @@ public class ExcludedMethodsTest {
 		public void setBeanProperty(String beanProperty) {
 		}
 
-		// methods annotated with @java.beans.Transient are excluded from output
-		@Transient
-		public String transientMethodsAreIgnoredByDefault() {
-			return null;
-		}
 
 		// this method is added to the blacklist using conf.addIngoredMethod("blacklistedMethod")
 		public String blacklistedMethod() {
