@@ -31,19 +31,6 @@
 		</dependency>
 	</dependencies>
 	
-	<distributionManagement>
-		<repository>
-			<id>internal.repo</id>
-			<name>local-target</name>
-			<url>file://${project.build.directory}/mvn-repo</url>
-		</repository>
-		<snapshotRepository>
-			<id>internal.snaphshot.repo</id>
-			<name>local-target</name>
-			<url>file://${project.build.directory}/mvn-repo-snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<scm>
 		<connection>scm:git:git@github.com:raphaeljolivet/jackson-module-typescript.git</connection>
 		<url>scm:git:git@github.com:raphaeljolivet/jackson-module-typescript.git</url>
