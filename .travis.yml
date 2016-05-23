@@ -5,6 +5,7 @@ deploy:
   provider: releases
   api_key:
     secure: gf8lqyjvxg8aWxc/RKRphlj0KW8yawUY1gx602OCaaRZMe5sW6plAZvZO4YUhf6sRYPlqwIaJRo4s6WjgFHEsm1db3upU3hr0M6aWqx8hoeTY7Rtu7JgoW6qgGj9EWFHDrUjetH47aedyU6gZ1oA7+szq5FbCPoLYbb7hafIT7WhM7+ISb38uPBxlKdmfr3hXuDWbzBajV0M1LYO/zBqamMtklVQnfZpsrBIeVm9/7dSuLDyxQESeZMDeLcZTt9f8Ca0Z5hojygHsiRn9/TgY/uFAWLPscaG9EOjziVFETbbMXwbuoh3+odlZ6a5DjlxPkhZIeIkvtshuGoBRGq6tvBMkPh9VWecfNgJj5crLm70IQd+aB8KWIhvoyIMHfVcreFh9IY9Ol3sEolsyU0UrMQhuEfsS7Ve7PDpmPB94FB5LWf1dyVsnuaTQa+ow8xqi+KnzrevL8dTaoYvYBLoLwU3uTteb9Lh5HV+ZV+uNi+Nwo6jeSgJivrOaD7vavlS/BkGBk6lZfAWoEgWQJ3phjrb0tVwvpBJ+uyOxGYhLckUFrPYMEvoGKvArvzcEBvQkusvp/IC2VCi06GnvOpChR504NPEZGLXLIq1Ne9YRNPfWn7hF2mHw0UlcVVQqipfHoASPRJqk2K77+AnxGHtu9cZs0Niy3zA//UKntByJII=
+  file_glob: true
   file: "*"
   on:
     repo: jsc-it/java2typescript
