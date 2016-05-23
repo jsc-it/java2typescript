@@ -1,6 +1,5 @@
 package java2typescript.jackson.module;
 
-import java.beans.Transient;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -44,9 +43,6 @@ public class Configuration {
 	}
 
 	public boolean isIgnoredMethod(Method method) {
-		if (method.getAnnotation(Transient.class) != null) {
-			return true;
-		}
 		return isIgnoredMethod(method.getName());
 	}
 
