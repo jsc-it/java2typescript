@@ -22,7 +22,6 @@ import static java2typescript.jackson.module.visitors.TSJsonFormatVisitorWrapper
 import java.beans.BeanInfo;
 import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
-import java.beans.Transient;
 import java.lang.reflect.Method;
 import java2typescript.jackson.module.grammar.AnyType;
 import java2typescript.jackson.module.grammar.FunctionType;
